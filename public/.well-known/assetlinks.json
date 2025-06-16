@@ -6,7 +6,9 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.mathias8dev.pocengie",
-      "sha256_cert_fingerprints": []
+      "sha256_cert_fingerprints": [
+        "B4:A4:0C:D3:FC:0E:EC:60:E4:96:76:F2:15:20:97:1C:D4:33:47:08:41:2D:DF:7C:F2:5D:10:82:DF:66:61:68"
+      ]
     }
   }
 ]
