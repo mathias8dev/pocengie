@@ -31,11 +31,13 @@ export default function RootLayout({
             autoRedirect={false}
             bannerProps={{
               title: 'PocEngie',
-              description: 'Get the full experience in our mobile app'
+              description: 'Get the full experience in our mobile app',
+              autoHideDelay: 60000
             }}
           >
             {children}
-          </SmartRedirectWrapper></AndroidRedirectProvider>
+          </SmartRedirectWrapper>
+        </AndroidRedirectProvider>
 
       </body>
     </html>

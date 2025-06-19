@@ -12,7 +12,7 @@ export const SmartAppBanner: React.FC<SmartBannerProps> = ({
   onOpen,
   onClose,
   autoHide = true,
-  autoHideDelay = 10000
+  autoHideDelay = 60000
 }) => {
   const [isVisible, setIsVisible] = useState(true);
 
